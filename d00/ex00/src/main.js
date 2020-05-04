@@ -1,6 +1,3 @@
-const readline = require('readline-sync');
-
-// var myMegaphone = function (res) {
 function myMegaphone(res) {
   if (res != '') {
     return res.toUpperCase();
@@ -9,11 +6,9 @@ function myMegaphone(res) {
   }    
 }
 
-var response = readline.question("Enter some text: ");
-
+var response = "asd"
 response = myMegaphone(response);
-myMegaphone(response);
 
 console.log(response);
 
-module.exports.myMegaphone = myMegaphone;
+module.exports = myMegaphone;
