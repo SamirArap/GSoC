@@ -41,10 +41,6 @@ if (show.persons != '') {
 // SEARCH by INDEX
 show.showOnePerson(1);
 
-///////
-// var trune = new Person();
-// trune.truncate('Sake');
-// console.log("TRUNCATON ==> ",  trune.truncate('Sake'));
 
 //EXIT
 console.log("\n##########################################");
