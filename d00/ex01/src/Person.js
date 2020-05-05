@@ -4,10 +4,10 @@ class Person {
 
   // truncate
   truncate(str) {
-    if (str.length < 10) {
+    if (str.length < 3) {
       return str;
     } else {
-      var newStr = str.slice(0, 10) + ".";
+      var newStr = str.slice(0, 3) + ".";
       return newStr;
     }
   }
